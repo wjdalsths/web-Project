@@ -1,0 +1,158 @@
+@charset "utf-8";
+*{
+    font-family: "Elice Digital Baeum",sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.bar{
+	position: fixed;
+	top: 0px; left: 0px;
+	width: 0%; height: 9px;
+	background: #9119c0;
+    border-radius: 2px;
+	z-index: 9999999;
+}
+
+body {
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo{
+    width: 210px; margin-top: 14px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav li{
+     margin-left: 36px;
+    }
+
+.main-nav a{
+    color: #432;
+}
+
+.main-nav a:hover{
+    color: #0bd;
+}
+
+.page-header {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.page-title{
+    font-size:6rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#news{
+    height: 270px;
+    margin-bottom: 40px;                
+}
+#news .page-title{
+    text-align: center;
+}
+
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+article{
+    width: 60%;order: 2;
+}
+article img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+article p{
+    margin-bottom: 1rem;
+}
+aside{
+    width: 22%;order: 3;
+}
+aside p{
+    padding: 12px 10px;
+}
+.ad{
+    width: 100px;
+    order: 1;
+}
+
+.post-info{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.post-title{
+    font-size: 2rem;
+    font-weight: nomar;
+}
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+.sub-menu{
+    margin-bottom: 60px;list-style: none;
+}
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a{
+    color: #432;padding: 10px;display: block;
+}
+.sub-menu a:hover{
+    color: #0bd;
+}
+
+
+footer{
+    display: flex;
+    background: #474343;
+    padding:30px;
+}
+footer>div:first-child{
+    flex: 3;
+    text-align: center;
+    text-align: flex;
+    color: #fff;
+}
+
+footer>div:last-child{
+    flex: 9;
+    color: #fff;
+}

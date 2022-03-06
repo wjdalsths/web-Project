@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#slide {height: 300px;position: relative;}
+#slide>a {position: absolute;display: none;}
+#slide>a:first-child {display: block;}

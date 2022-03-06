@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: "Elice Digital Baeum",sans-serif;
+    border-radius: 10px;
+    color: black;
+
+  }
+  
+  .bar{
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 0%; height: 9px;
+    background: #9119c0;
+      border-radius: 2px;
+    z-index: 9999999;
+  }
+  body {
+    margin: 0;
+  }
+  .logo{
+      margin-top: 40px;
+  }
+   
+  .login-form {
+      width: 640px;
+      height: 640px;
+      background-color: #EEEFF1;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      text-align: center;
+      border: none;
+      
+  }
+   
+  .text-field1{
+      margin-top: 60px;
+  }
+  .text-field1,
+  .text-field2 {
+        font-size: 14px;
+        padding: 10px;
+        border: none;
+        width: 480px;
+        margin-bottom: 40px;
+  }
+   
+  .submit_b {
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    width: 260px;
+    background-color: rgb(57, 57, 219);
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 25px;
+
+  }
+   
+  .links {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  footer{
+    display: flex;
+    background: #394fcc;
+    padding: 30px;
+    border-radius: 0px;
+  }
+  footer>div:first-child{
+      flex: 3;
+      text-align: center;
+      text-align: flex;
+      color: #fff;
+  }
+
+  footer>div:last-child{
+      flex: 9;
+      color: #fff;
+  }
